@@ -152,35 +152,6 @@
         /***CLIENT SLIDER INITIALIZATION***/
         clint();
 
-        /***GOOGLE MAP***/
-        function init() {
-            var mapOptions = {
-                zoom: 17,
-                center: new google.maps.LatLng(51.5287352, -0.3817831),
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                scrollwheel: false,
-                disableDefaultUI: false
-            };
-
-            var myMap = new google.maps.Map(document.getElementById('myMap'), mapOptions);
-
-            new MarkerWithLabel({
-                position: myMap.getCenter(),
-                icon: {
-                    path: google.maps.SymbolPath.CIRCLE,
-                    scale: 0
-                },
-                map: myMap,
-                labelAnchor: new google.maps.Point(10, 10),
-                labelClass: "map-label", // The CSS class for the label
-                draggable: false
-
-            });
-        }
-
-        /***GOOGLE MAP INITIALIZATION***/
-        init();
-
         /***CAROUSAL SWIPE***/
         $(".carousel-inner").swipe( {
             //Generic swipe handler for all directions
