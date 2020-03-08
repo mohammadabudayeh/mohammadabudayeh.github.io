@@ -799,6 +799,8 @@ html, body {
       #about .about-btn .btn:hover {
         /*hover effect*/
         background: #046c40; }
+	#about .about-btn .btn .fas {
+		font-size: 14px; }
 
 /*
 -------------------------------------------------------------------------------
