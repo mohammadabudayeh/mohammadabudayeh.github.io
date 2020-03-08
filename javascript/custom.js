@@ -175,7 +175,7 @@
             $('div#form-loader').removeClass('is-hidden').fadeIn(500);
             $.ajax({
                 type: 'POST',
-                url: 'https://salamehoptics.com/mail_handler.php', // Form script
+                url: '#', // Form script Here
                 data: post_data
             })
                 .done(function () {
