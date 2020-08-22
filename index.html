@@ -409,10 +409,31 @@
                 <div id="contact-card" class="col-md-5 col-sm-12 col-xs-12">
                     <div class="card">
                         <div class="card-content">
-                            <form id="contact-form" name="c-form">
+                            <form class="contact-form" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+                                    <?php if (! empty($formErrors)) { ?>
+                                    <div class="alert alert-danger alert-dismissible" role="start">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <?php
+                                    foreach($formErrors as $error) {
+                                    echo $error . '<br/>';
+                                    }
+                                    ?>
+                                    </div>
+                                    <?php } ?>
+                                    <?php if (isset($success)) { echo $success; } ?>
                                 <div class="input-field">
-                                    <input id="first_name" type="text" class="validate" name="first_name" required>
-                                    <label for="first_name">Name</label>
+                                    <input 
+                                       class="username form-control" 
+                                       type="text" 
+                                       name="username" 
+                                       placeholder="Type Your Username"
+                                       value="<?php if (isset($user)) { echo $user; } ?>" />
+                                    <i class="fa fa-user fa-fw"></i>
+                                    <div class="alert alert-danger custom-alert">
+                                        Username Must Be Larger Than <strong>3</strong> Characters
+                                    </div>
                                 </div>
                                 <div class="input-field">
                                     <input id="sub" type="text" class="validate" name="sub">
