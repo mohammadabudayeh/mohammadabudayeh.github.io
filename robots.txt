@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /javascript
+Disallow: /stylesheets
+Disallow: /webfonts
