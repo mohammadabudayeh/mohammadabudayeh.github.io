@@ -517,7 +517,7 @@ html, body {
       #home .header-background #v-card-holder #v-card .info-headings {
         /*basic infos*/
         max-width: 514px; }
-        #home .header-background #v-card-holder #v-card .info-headings h4 {
+        #home .header-background #v-card-holder #v-card .info-headings h1 {
           /*name*/
           display: block;
           width: 100%;
