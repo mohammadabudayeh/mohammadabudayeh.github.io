@@ -572,7 +572,7 @@ html, body {
           margin-bottom: 4px; }
           #home .header-background #v-card-holder #v-card .links .social i {
             /*icon*/
-            font-size: 15px;
+            font-size: 25px;
             vertical-align: middle;
             padding-bottom: 15px; }
         @media screen and (max-width: 400px) {
@@ -983,6 +983,110 @@ html, body {
       font-size: .8em;
       line-height: 15px;
       color: #fff; }
+      /*
+-------------------------------------------------------------------------------
+12. BLOG SECTION
+-------------------------------------------------------------------------------
+*/
+/*blog section*/
+#blog .blog {
+  /*blog class*/
+  position: relative;
+  height: 21em; }
+  #blog .blog:after {
+    clear: both;
+    content: '';
+    display: block; }
+  #blog .blog:before {
+    background: blue;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+  #blog .blog .content {
+    /*blog content*/
+    display: inline-block;
+    padding: 40px;
+    vertical-align: middle;
+    width: 49.3%; }
+    #blog .blog .content:last-child {
+      margin: 0 2px 0 -2px; }
+    #blog .blog .content h6 {
+      /*blog header*/
+      margin-bottom: 0.5em;
+    }
+    #blog .blog .content .breadcrumb {
+      padding: 0;
+      background: transparent !important;
+      font-size: 15px; }
+    #blog .blog .content a {
+      /*read more link*/
+      border-bottom: 1px solid gainsboro; }
+  #blog .blog .image {
+    /*blog image*/
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    position: relative; }
+    #blog .blog .image:hover .image-overlay {
+      /*overlay effect*/
+      z-index: 2; }
+    #blog .blog .image:hover img {
+      /*image hover*/
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05); }
+    #blog .blog .image img {
+      /*blog image*/
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      transition: .5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -o-transition: 0.5s; }
+  #blog .blog .image-overlay {
+    /*blog image overlay*/
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 0; }
+#blog .odd {
+  /*blog odd property*/
+  text-align: left; }
+  #blog .odd .image {
+    float: left; }
+    #blog .odd .image img {
+      right: 0;
+      top: 0; }
+#blog .even {
+  /*blog even property*/
+  text-align: right; }
+  #blog .even .image {
+    float: right; }
+    #blog .even .image img {
+      left: 0;
+      top: 0; }
+@media screen and (max-width: 768px) {
+  #blog .blog {
+    /*blog class*/
+    display: block;
+    height: auto; }
+    #blog .blog:last-child {
+      margin-bottom: 0; }
+    #blog .blog .image {
+      /*image*/
+      height: 20em;
+      width: 100%; }
+    #blog .blog .content {
+      /*blog content*/
+      text-align: center;
+      width: 100%; } }
 /*
 -------------------------------------------------------------------------------
 14. SCROLL TO TOP SECTION
