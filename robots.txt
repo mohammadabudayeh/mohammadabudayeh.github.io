@@ -4,5 +4,5 @@ Allow: /index.html
 Disallow: /javascript
 Disallow: /stylesheets
 Disallow: /webfonts
-Sitemap: https://abudayeh.me/sitemap.xml
+Sitemap: http://abudayeh.me/sitemap.xml
 Sitemap: http://www.abudayeh.me/sitemap.xml
