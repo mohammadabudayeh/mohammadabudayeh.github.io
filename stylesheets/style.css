@@ -596,7 +596,7 @@ html, body {
         z-index: 1; }
         #home .header-background #v-card-holder #v-card #profile img {
           /*user image for 400x400px image*/
-          width: 400px;
+          width: 350px;
           height: auto; }
         #home .header-background #v-card-holder #v-card #profile .slant {
           /*slant*/
