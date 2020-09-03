@@ -509,7 +509,7 @@ html, body {
       /*v-card with fixed 400px height*/
       position: relative;
       width: 100%;
-      height: 400px;
+      height: 350px;
       overflow: hidden;
       z-index: 1;
       background: #06A763;
@@ -605,7 +605,7 @@ html, body {
           height: 100%;
           top: 0;
           border-style: dashed;
-          border-width: 400px 0 0 100px;
+          border-width: 350px 0 0 100px;
           border-color: transparent transparent transparent #06A763; }
         @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
           #home .header-background #v-card-holder #v-card #profile .slant {
