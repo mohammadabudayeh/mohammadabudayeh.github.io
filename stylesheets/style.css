@@ -690,7 +690,7 @@ html, body {background-color: #f5f5f5;}
   transition: .3s; }
 
 /*- BLog --------------------------------------------------------------*/
-.single-page{margin-top:-290px;}
+.single-page{margin-top:10px;}
   .single-page .post .titleblog{padding:10px;background:#06A763;color:#fff;}
   .single-page .post .titleblog h1{font-size:27px;}
   .single-page .post .titleblog time{font-size:14px;float:right;margin-top:10px;}
