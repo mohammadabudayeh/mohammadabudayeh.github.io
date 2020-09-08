@@ -4,10 +4,31 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
 <url>
   <loc>https://abudayeh.me/</loc>
-  <lastmod>2020-08-30T12:41:57+00:00</lastmod>
+  <lastmod>2020-09-08T23:23:01+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
-
+<url>
+  <loc>https://abudayeh.me/blog/cybersecurity</loc>
+  <lastmod>2020-09-08T23:23:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abudayeh.me/blog/software_engineering</loc>
+  <lastmod>2020-09-08T23:23:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abudayeh.me/blog/ethical_hacker</loc>
+  <lastmod>2020-09-08T23:23:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abudayeh.me/blog/</loc>
+  <lastmod>2020-09-08T23:23:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
