@@ -1,8 +1,6 @@
 User-agent: *
 Allow: /
 Allow: /index.html
-Disallow: /javascript
-Disallow: /stylesheets
-Disallow: /webfonts
+Allow: /blog
 Sitemap: http://abudayeh.me/sitemap.xml
 Sitemap: http://www.abudayeh.me/sitemap.xml
