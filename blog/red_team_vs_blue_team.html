@@ -119,58 +119,118 @@
                                     The objective of this test is to test the preparedness of the organization’ security and its ability to detect and respond to an attack. The exercise would be carried for 2–3 weeks depending on the situation.
                                 </p>
                                 <h2 class="text-center">Red Team and Blue Team Key Objectives and Job Roles</h2>
-                                <img src="https://abudayeh.me/blog/images/blue-vs-red2.png" class="img-fluid" alt="Responsive image">
-                                <p>
-                                    Organizations must have a framework for how they deal with both attempted and successful cyber attacks. One well-respected framework can guide you. It explains how you can identify attacks, protect systems, detect and respond to threats, and recover from successful attacks.
-                                </p>
-                                <h2>Technology</h2>
-                                <p>
-                                    Technology is essential to giving organizations and individuals the computer security tools needed to protect themselves from cyber attacks. Three main entities must be protected: endpoint devices like computers, smart devices, and routers; networks; and the cloud. Common technology used to protect these entities include next-generation firewalls, DNS filtering, malware protection, antivirus software, and email security solutions.                        
-                                </p>
-                                <h2>Why is cybersecurity important?</h2>
-                                <p>
-                                    In today’s connected world, everyone benefits from advanced cyberdefense programs. At an individual level, a cybersecurity attack can result in everything from identity theft, to extortion attempts, to the loss of important data like family photos. Everyone relies on critical infrastructure like power plants, hospitals, and financial service companies. Securing these and other organizations is essential to keeping our society functioning.
-                                    <br>
-                                    Everyone also benefits from the work of cyberthreat researchers, like the team of 250 threat researchers at Talos, who investigate new and emerging threats and cyber attack strategies. They reveal new vulnerabilities, educate the public on the importance of cybersecurity, and strengthen open source tools. Their work makes the Internet safer for everyone.                        
-                                </p>
-
-                                <h2 class="text-center">Types of cybersecurity threats</h2>
-                                <table class="table table-hover">
+                                <img src="https://abudayeh.me/blog/images/blue-vs-red2.png" class="img-fluid rounded mx-auto d-block" alt="Blue Team VS Red Team">
+                                <br>
+                                <table class="table table-bordered table-hover">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Types</th>
-                                            <th scope="col">Explained</th>
+                                            <th scope="col" class="text-center text-danger">Red team</th>
+                                            <th scope="col" class="text-center text-primary">Blue Team</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row">Phishing</th>
-                                            <td>Phishing is the practice of sending fraudulent emails that resemble emails from reputable sources. The aim is to steal sensitive data like credit card numbers and login information. It’s the most common type of cyber attack. You can help protect yourself through education or a technology solution that filters malicious emails.</td>
+                                            <td class="text-center"><span class="text-info font-weight-bold">Objective:</span> Exploit, compromise, and circumvent</td>
+                                            <td class="text-center"><span class="text-info font-weight-bold">Objective:</span> Detect and prevent security controls</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Ransomware</th>
-                                            <td>Ransomware is a type of malicious software. It is designed to extort money by blocking access to files or the computer system until the ransom is paid. Paying the ransom does not guarantee that the files will be recovered or the system restored.</td>
+                                            <td class="text-center text-danger">Attacks stimulated</td>
+                                            <td class="text-center text-primary">Control measures</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Malware</th>
-                                            <td>Malware is a type of software designed to gain unauthorized access or to cause damage to a computer. </td>
+                                            <td class="text-left text-danger">Conduct remote attacks via the Internet</td>
+                                            <td class="text-left text-primary">Identify type of attacks</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Social engineering</th>
-                                            <td>Social engineering is a tactic that adversaries use to trick you into revealing sensitive information. They can solicit a monetary payment or gain access to your confidential data. Social engineering can be combined with any of the threats listed above to make you more likely to click on links, download malware, or trust a malicious source.</td>
+                                            <td class="text-left text-danger">DNS tunneling</td>
+                                            <td class="text-left text-primary">Identify intrusions on the systems</td>
                                         </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">ICMP tunneling</td>
+                                            <td class="text-left text-primary">Identify and block the attacks before they succeed</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Intrusion attempts</td>
+                                            <td class="text-left text-primary">Activate run books for incident response</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Insider threat</td>
+                                            <td class="text-left text-primary">Stay alert for reactive or preventive action</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">VPN-based attacks</td>
+                                            <td class="text-left text-primary">Train the physical security teams for identity spoof</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Access card copy and strength test</td>
+                                            <td class="text-left text-primary">Enhance security standards</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Identity spoof</td>
+                                            <td class="text-left text-primary">Activate the containment of attacked systems</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">HID attack</td>
+                                            <td class="text-left text-primary">Logs and SIEM Config/Alerts</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Fake WAP</td>
+                                            <td class="text-left text-primary">Security awareness training</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Spoofing</td>
+                                            <td class="text-left text-primary">Check on domain expirations</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="text-left text-danger">Lazy/broken processes</td>
+                                            <td class="text-left text-primary">Email filters, threshold, and spam rules</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Zombies/bots</td>
+                                            <td class="text-left text-primary">Two-factor authentication</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Attack on physical security</td>
+                                            <td class="text-left text-primary">Deny long relay request</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left text-danger">Stolen authentication tokens</td>
+                                            <td class="text-left text-primary">Application whitelisting</td>
+                                        </tr>
+
                                     </tbody>
                                 </table>
+                                <br>
+                                <h2>Preparing for the Attack</h2>
+                                <p>
+                                    In a real-life attack, nobody is going to warn organization staff in advance, so blue team preparation is less about bracing for impact and more about reviewing existing security controls, tools, and incident response procedures in the context of practical use. Detailed knowledge of the organization’s physical and virtual infrastructure is also vital. For example, some disjointed security solutions and procedures may already be in place, and preparation might involve documenting and integrating them using security information and event management solution (SIEM) to provide real-time threat intelligence. For web applications, the blue team might use an online vulnerability scanner to find and eliminate existing weak points in web-accessible infrastructures, such as misconfigurations and forgotten test deployments.
+                                </p>
+                                <p>
+                                    For the red team, preparation is all about recon and research. If external red teaming consultants are used, they might stake out and analyze the targeted organization just like real attackers would. This will typically include scanning for vulnerabilities, mapping out the virtual and physical infrastructure, identifying virtual and physical security systems, and harvesting staff identities and contact details for social engineering attacks. If it’s necessary to gain physical access, the red team might even set up a dummy business to pose as a business partner, contractor, or other legitimate entity.
+                                </p>
+                                <h2>Do I need a red or blue team for my company?</h2>
+                                <p>
+                                    The truth is, there is no red team without the blue team, or vice versa.
+                                </p>
+                                <p>
+                                    It was not in our intention to trick anyone, but it was a trick question! The real answer to the question is: <span class="font-weight-bold">Both</span>.
+                                </p>
+                                <p>
+                                    The red team uses its tactics of attack and offense to test the blue team’s expectations and preparation of defense. Sometimes, the red team may find holes that the blue team has completely overlooked, and it’s the responsibility of the red team to show how those things can be improved. It’s vital for the red and blue teams to work together against cyber criminals, so cyber security can be improved.
+                                </p>
+                                <p>
+                                    There is no “red team is better than blue,” no benefit to picking sides or investing in only one. The important thing is remembering that the goal of both sides is to prevent cyber crimes.
+                                </p>
                             </div>
                         </article>
                         <div class="card">
                             <h5 class="card-header">References</h5>
                             <div class="card-body">
-                                <a href="https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html" class="btn btn-outline-primary btn-sm" title="CISCO" target="_blank">CISCO</a>
-                                <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security" class="btn btn-outline-primary btn-sm" title="KasperSky" target="_blank">kaspersky</a>
-                                <a href="https://digitalguardian.com/blog/what-cyber-security" class="btn btn-outline-primary btn-sm" title="Digital Guardian" target="_blank">Digital Guardian</a>
-                                <a href="https://en.wikipedia.org/wiki/Computer_security" class="btn btn-outline-primary btn-sm" title="wikipedia" target="_blank">wikipedia</a>
-                                <a href="https://us.norton.com/internetsecurity-malware-what-is-cybersecurity-what-you-need-to-know.html" class="btn btn-outline-primary btn-sm" title="Norton" target="_blank">Norton</a>
+                                <a href="https://blog.eccouncil.org/red-team-vs-blue-team/" class="btn btn-outline-primary btn-sm" title="eccouncil" target="_blank">EC-Council</a>
+                                <a href="https://www.netsparker.com/blog/web-security/red-team-vs-blue-team/" class="btn btn-outline-primary btn-sm" title="netsparker" target="_blank">netsparker</a>
+                                <a href="https://securitytrails.com/blog/cybersecurity-red-blue-team" class="btn btn-outline-primary btn-sm" title="SecurityTrails" target="_blank">SecurityTrails</a>
+                                <a href="https://en.wikipedia.org/wiki/Red_team" class="btn btn-outline-primary btn-sm" title="wikipedia" target="_blank">Wikipedia</a>
                             </div>
                         </div> 
                     </div>
